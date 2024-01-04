@@ -1,0 +1,23 @@
+/*Rule 1: All odd numbered elements - a light red/pink background, and a 
+list of fonts contaning Veranda and DejaVu Sans with sans-serif as a 
+fall back*/
+
+.odd {
+    background-color: RGB(240, 110, 110);
+    font: Veranda, "DejaVu sans", sans-serif;
+}
+
+#second {
+    color: RGB(0, 0, 255);
+    font-size: 36px;
+}
+
+#third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: RGB(0, 255, 0);
+    font-size: 24px;
+    font-weight: bold;
+}

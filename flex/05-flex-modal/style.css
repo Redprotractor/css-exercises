@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .modal {
@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+
+  /* added by DM */
+  padding: 10px;
+  gap: 10px;
 }
 
 .icon {
@@ -63,4 +68,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* added by DM*/
+.icon {
+  flex-shrink: 0;
+}
+
+.right {
+  padding: 10px;
+  align-items: space-around;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 10px;
 }
